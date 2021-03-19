@@ -28,7 +28,7 @@ server_ram_mb=`echo "scale=0;$server_ram_total/1024" | bc`
 server_hdd=$( df -h | awk 'NR==2 {print $2}' )
 server_swap_total=$(awk '/SwapTotal/ {print $2}' /proc/meminfo)
 server_swap_mb=`echo "scale=0;$server_swap_total/1024" | bc`
-server_ip=$(curl -s $script_root/ip/)
+server_ip=$(curl -L http://cpanel.net/showip.cgi)
 
 printf "=========================================================================\n"
 printf "Thong so server cua ban nhu sau \n"
