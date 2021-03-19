@@ -24,6 +24,7 @@ curl -sO https://github.com/duy13/HocVPS-Script/blob/master/install && bash inst
 ```
 
 – Cài đặt xong, khi connect SSH VPS bạn hãy sử dụng port 2222, không dùng port 22!
+
 – HocVPS Script không hoạt động trên VPS chỉ có IPv6 (gói $2.5 của Vultr)
 vCyber script interface:
 
