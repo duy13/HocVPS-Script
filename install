@@ -2,7 +2,7 @@
 #######################################################
 # HocVPS Script Installer v1.2
 # To install HocVPS Script type: 
-# curl -sO https://hocvps.com/install && bash install
+# curl -sO https://github.com/duy13/HocVPS-Script/raw/master/install && bash install
 #######################################################
 
 if [ $(id -u) != "0" ]; then
@@ -66,7 +66,7 @@ cd /root/
 rm -f install*
 
 if [ "$1" = "wordpress" ]; then
-	curl -sO https://hocvps.com/scripts/$centos_version/install.sh && bash install.sh wordpress
+	curl -sO https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts/$centos_version/install.sh && bash install.sh wordpress
 else
-	curl -sO https://hocvps.com/scripts/$centos_version/install.sh && bash install.sh
+	curl -sO https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts/$centos_version/install.sh && bash install.sh
 fi

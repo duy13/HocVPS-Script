@@ -10,8 +10,8 @@ hocvps_version="2.1"
 phpmyadmin_version="4.9.5" # Released 2020-03-21. Older version compatible with PHP 5.5 to 7.4 and MySQL 5.5 and newer. Currently supported for security fixes only.
 extplorer_version="2.1.13" # 05/15/2019 04:43 PM
 extplorer_id="82"
-script_root="https://hocvps.com/scripts"
-script_url="https://hocvps.com/scripts/7"
+script_root="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts"
+script_url="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts/7"
 low_ram='262144' # 256MB
 
 yum -y install gawk bc wget lsof
@@ -29,7 +29,7 @@ server_ram_mb=`echo "scale=0;$server_ram_total/1024" | bc`
 server_hdd=$( df -h | awk 'NR==2 {print $2}' )
 server_swap_total=$(awk '/SwapTotal/ {print $2}' /proc/meminfo)
 server_swap_mb=`echo "scale=0;$server_swap_total/1024" | bc`
-server_ip=$(curl -s $script_root/ip/)
+server_ip=$(curl -L http://cpanel.net/showip.cgi)
 
 printf "=========================================================================\n"
 printf "Thong so server cua ban nhu sau \n"

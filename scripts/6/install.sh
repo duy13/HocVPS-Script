@@ -9,8 +9,8 @@
 hocvps_version="2.0.4"
 phpmyadmin_version="4.8.0.1" # Released 2018-04-19. Future version compatible with PHP 5.5 to 7.2 and MySQL 5.5 and newer.
 extplorer_version="2.1.10"
-script_root="https://hocvps.com/scripts"
-script_url="https://hocvps.com/scripts/6"
+script_root="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts"
+script_url="https://raw.githubusercontent.com/duy13/HocVPS-Script/master/scripts/6"
 low_ram='262144' # 256MB
 
 yum -y install gawk bc wget lsof
