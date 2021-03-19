@@ -9,14 +9,14 @@ Trang chủ: https://hocvps.com/script
 
 ----------
 
-1/ HocVPS-Script System Requirements:
+1/ Yêu cầu Hệ thống:
 -------------
 Install CentOS Server 6/7 x86_64: http://centos.org/
 
 ----------
 
 
-2/ HocVPS-Script Install:
+2/ Cài đặt:
 -------------
 ```
 curl -sO https://github.com/duy13/HocVPS-Script/blob/master/install && bash install
@@ -26,7 +26,7 @@ curl -sO https://github.com/duy13/HocVPS-Script/blob/master/install && bash inst
 – Cài đặt xong, khi connect SSH VPS bạn hãy sử dụng port 2222, không dùng port 22!
 
 – HocVPS Script không hoạt động trên VPS chỉ có IPv6 (gói $2.5 của Vultr)
-vCyber script interface:
+
 
 Quá trình cài đặt:
 -------------
@@ -35,7 +35,7 @@ Quá trình cài đặt:
 ![HocVPS Script screenshot2](https://lh3.googleusercontent.com/-sSY6GT508F0/YFRD7RHPvTI/AAAAAAAAC2c/7v3Z8q6NZXAjIzzohh3oFA6qIQ7xj4sTACLcBGAsYHQ/s16000/Cai-dat-thanh-cong-v1.8.png "HocVPS Script screenshot2")
 
 
-3/ More Config:
+3/ Cấu hình khác:
 ---------------
 HomePage: https://hocvps.com/script
 
