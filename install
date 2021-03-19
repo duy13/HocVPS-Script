@@ -2,7 +2,7 @@
 #######################################################
 # HocVPS Script Installer v1.2
 # To install HocVPS Script type: 
-# curl -sO https://github.com/duy13/HocVPS-Script/raw/master/install && bash install
+# curl -sLO https://github.com/duy13/HocVPS-Script/raw/master/install && bash install
 #######################################################
 
 if [ $(id -u) != "0" ]; then
