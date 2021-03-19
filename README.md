@@ -19,7 +19,7 @@ Install CentOS Server 6/7 x86_64: http://centos.org/
 2/ Cài đặt:
 -------------
 ```
-curl -sO https://github.com/duy13/HocVPS-Script/blob/master/install && bash install
+curl -sO https://github.com/duy13/HocVPS-Script/raw/master/install && bash install
 
 ```
 
